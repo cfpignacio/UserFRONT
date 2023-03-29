@@ -1,3 +1,4 @@
+ // METODO GET
  async function getUser(){
     var apiUser =  await fetch('https://randomuser.me/api/')
     var dataJson =  await apiUser.json()
